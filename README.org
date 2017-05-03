@@ -1,7 +1,7 @@
 #+TITLE: ryanhuen layer
 
 # The maximum height of the logo should be 200 pixels.
-[[img/ryanhuen.png]]
+#[[img/ryanhuen.png]]
 
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
