@@ -39,17 +39,19 @@
 
 (defun ryanhuen/init-youdao-dictionary()
   (use-package youdao-dictionary
+    ;;enable auto-load
     :defer t
     :init
-    (spacemacs/set-leader-keys "oy" 'youdao-dictionary-search-at-point+)
+    (spacemacs/set-leader-keys "tt" 'youdao-dictionary-search-at-point+)
     )
   )
 
 (defun ryanhuen/init-xclip()
   (use-package xclip
+    :defer t
     :init
     (xclip-mode 1))
-       )
+  )
 
 (defun ryanhuen/post-init-company()
   (setq company-minimum-prefix-length 3)
