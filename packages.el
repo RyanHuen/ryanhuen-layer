@@ -33,6 +33,7 @@
   '(
     company
     xclip
+    swiper
     )
 )
 
@@ -46,5 +47,9 @@
 (defun ryanhuen/post-init-company()
   (setq company-minimum-prefix-length 3)
   )
+
+(defun zilongshanren-misc/post-init-swiper ()
+      )
+
 
 ;;; packages.el ends here
