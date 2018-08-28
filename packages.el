@@ -31,20 +31,10 @@
 
 (defconst ryanhuen-packages
   '(
-    youdao-dictionary
     company
     xclip
     )
 )
-
-(defun ryanhuen/init-youdao-dictionary()
-  (use-package youdao-dictionary
-    ;;enable auto-load
-    :defer t
-    :init
-    (spacemacs/set-leader-keys "tt" 'youdao-dictionary-search-at-point+)
-    )
-  )
 
 (defun ryanhuen/init-xclip()
   (use-package xclip
